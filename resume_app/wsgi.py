@@ -16,4 +16,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resume_app.settings')
 application = get_wsgi_application()
 
 # vercel.app in setting.py is connected via this bridge where app = application and application == our_App
-app = application 
+# app = application 
